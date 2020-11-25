@@ -1,0 +1,16 @@
+body{margin: 0px;
+background-color: black;}
+table{width: 100%;}
+img{width: 300px;}
+li{background-color: rgb(0, 0, 0);
+list-style-type: none;
+text-align: center;
+width: 300px;
+height: 24px;
+border:1px solid rgb(255, 81, 0);
+margin: auto;}
+a{color: rgb(255, 81, 0) ;
+text-decoration: cornsilk;}
+a:hover{text-decoration: rgb(9, 14, 11);}
+td{text-align: center;}
+ul{padding: 0;}

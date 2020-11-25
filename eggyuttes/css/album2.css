@@ -1,0 +1,16 @@
+body{margin: 0px;
+    background-color: rgb(163, 21, 21)}
+table{width: 100%;}
+img{width: 300px;}
+li{background-color: rgb(163, 21, 21);
+list-style-type: none;
+text-align: center;
+width: 300px;
+height: 24px;
+border: 1px solid black;
+margin: auto;}
+a{color: black;
+text-decoration: black;}
+a:hover{text-decoration: black;}
+td{text-align: center;}
+ul{padding: 0;}
