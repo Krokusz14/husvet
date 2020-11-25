@@ -8,9 +8,9 @@ list-style-type: none;
 text-align: center;
 width: 300px;
 height: 24px;
-border: 1px solid rgb(255, 230, 0);
+border: 1px solid rgb(255, 196, 0);
 margin: auto;}
-a{color: rgb(255, 230, 0);
+a{color:  rgb(255, 230, 0);;
 text-decoration: rgb(255, 230, 0);}
 a:hover{text-decoration: rgb(255, 230, 0) ;}
 td{text-align: center;}

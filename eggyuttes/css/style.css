@@ -50,7 +50,8 @@ float: left;
 padding-top: 10px;
 }
 .termék img{width: 100%;}
-.termék h2, .termék h3{text-align: center;}
+.termék h2, .termék h3{color: rgb(0, 238, 255);
+    text-align: center;}
 .termék button{width: 100%;
 background-color:rgb(0, 238, 255);
 border: none;
