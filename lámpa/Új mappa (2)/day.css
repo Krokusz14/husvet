@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#sky{
+    width: 100%;
+    height: 300px;
+    background-color: lightblue
+}
+
+#ground{
+    width: 100%;
+    height: calc(100vh - 300px);
+    background-color: rgb(80, 170, 80);
+}
+
+#road{
+    width: 100px;
+    height: 0;
+    margin: auto;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: calc(100vh - 300px) solid rgb(112, 112, 112);
+}
+
+.orb{
+    position: absolute;
+    width: 200px;
+    left: calc(50vw - 100px);
+    top: 30px;
+}
+
+
+#moon {
+    display: none;
+}
+
+#car{
+    position: relative;
+    top: 100px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background-image: url(day.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#lampa1, #lampa2{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#lampa1{
+    top: 106px;
+    left: 29px;
+}
+
+#lampa2{
+    top: 81px;
+    left: 148px;
+}

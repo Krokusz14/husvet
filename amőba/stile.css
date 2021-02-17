@@ -1,0 +1,13 @@
+body{margin: 0;
+padding: 0;
+background-color: rgb(54, 54, 54);}
+h1{text-align: center;
+color: white;}
+#palya{width: 600px;
+height: 600px;
+border: 1px solid black;
+margin: auto;}
+#palya button{width: 200px;
+height: 200px;
+float: left;
+font-size: 100px;}

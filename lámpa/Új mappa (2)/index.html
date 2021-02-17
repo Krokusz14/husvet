@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autó az országúton</title>
+    <link rel="stylesheet" href="night.css">
+</head>
+
+<body>
+    <div id="sky">
+        <img src="sun.png" class="orb" onclick="changeCicle()" id="sun" alt="Sun">
+        <img src="moon.png" class="orb" onclick="changeCicle()" id="moon" alt="Sun">
+    </div>
+
+    <div id="ground">
+        <div id="road">
+            <div id="car">
+                <div id="lampa1"></div>
+                <div id="lampa2"></div>
+                <div id="csóva"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function changeCicle() {
+            //alert("váltás");
+            let stilusok = document.getElementsByTagName('link');
+            let stilus = stilusok[0];
+            if (stilus.getAttribute('href') == 'day.css') {
+                stilus.setAttribute('href', 'night.css')
+            } else {
+                stilus.setAttribute('href', 'day.css')
+            }
+        }
+    </script>
+</body>
+
+</html>

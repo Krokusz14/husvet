@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+
+<body>
+    <div class="panel" id="pan">
+        <h1>Bevásárló lista</h1>
+        <input type="text" id="cuccos">
+        <button id="add" onclick="add()">+</button>
+        <div class="cucc"></div>
+    </div>
+    <script>
+        let panel = document.getElementById("pan");
+        function add() {
+        let uj_cucc = document.getElementById("cuccos").value;
+        panel.innerHTML += '<div class="cucc">'+uj_cucc+'</div>';
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.icon{height: 200px;}
+.mobile{display: none;}
+h1{text-align: center; 
+font-size: 30px;}
+#mobiletitler{color: azure;
+font-size: 20px;}
+@media screen and (max-width:768px){
+body{background-color: aqua;}
+}
+@media screen and (max-width:500px){
+    body{background-color: rgb(255, 153, 0);}
+        .mobile{display: block;}
+        .desktop{display: none;}
+        #desktoptitl{color: azure;
+            font-size: 20px;}
+         #mobiletitler{color: rgb(0, 0, 0);
+            font-size: 30px;}
+    }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amőba</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <h1>Amőba 3x3</h1>
+<div id="palya">
+<button onclick="kattintas(1)" id="btn1">o</button>
+<button onclick="kattintas(2)" id="btn2">x</button>
+<button onclick="kattintas(3)" id="btn3"></button>
+<button onclick="kattintas(4)" id="btn4"></button>
+<button onclick="kattintas(5)" id="btn5"></button>
+<button onclick="kattintas(6)" id="btn6"></button>
+<button onclick="kattintas(7)" id="btn7"></button>
+<button onclick="kattintas(8)" id="btn8"></button>
+<button onclick="kattintas(9)" id="btn9"></button>
+</div>
+<script>
+    //VÁLTOZÓ
+    let xJatszik=true;
+
+
+    function kattintas(id_szam){
+    if(xJatszik){//CSINÁLJUK EZT HA X JÁTSZIK
+        //megfogjuk a gombot
+        let gomb =document.getElementById("btn"+id_szam)
+        //a gombra ráírjuk hogy x
+        gomb.innerHTML="x"
+        xJatszik=false
+    }
+    else{//CSINÁLJUK EZT HA X NEM JÁTSZIK
+          //megfogjuk a gombot
+          let gomb =document.getElementById("btn"+id_szam)
+        //a gombra ráírjuk hogy o
+        gomb.innerHTML="o"
+        xJatszik=true
+    } 
+}
+</script>
+
+</body>
+</html>

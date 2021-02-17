@@ -1,0 +1,20 @@
+body{background-color: purple;}
+.panel{width: 300px;
+    min-height: 200px;
+    max-width: 500px;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 30px;}
+#cuccos{float: left;
+    height: 24px;}
+#add{float: left;
+    width: 30px;
+    height: 30px;}
+.cucc{width: 100%;
+    float: left;
+    background-color: aqua;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;}
