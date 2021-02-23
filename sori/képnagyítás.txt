@@ -1,0 +1,5 @@
+#kép:hover{cursor: zoom-in;
+float: none;
+width: 60%;
+height: 80vw;
+}
